@@ -10,10 +10,18 @@ parser = argparse.ArgumentParser(description='Reveal hidden links behind shorten
 parser.add_argument('link', help="The link you want to grow")
 args = parser.parse_args()
 
-link = args.link
-if "tinyurl" in link:
-    #mode=tu #TinyURL
+def get_link(link):
     r = requests.get(link)
-    print('The long link is: ' + r.request.url)
+    # long link
+    llink = r.request.url
+    print('The long link is: ' + llink)
+
+link = args.link
+
+#supported services
+services = ["tinurl", "bitly", "bit.ly"]
+
+if any(x in services for x in services):
+    get_link(link)
 else:
     print("I'm not able to handle this URL: " + link)
