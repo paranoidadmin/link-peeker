@@ -10,7 +10,6 @@ parser = argparse.ArgumentParser(description='Reveal hidden links behind shorten
 parser.add_argument('link', help="The link you want to grow")
 args = parser.parse_args()
 
-# TinyURL = https://tinyurl.com/8k467rsz
 link = args.link
 if "tinyurl" in link:
     #mode=tu #TinyURL
