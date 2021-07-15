@@ -5,11 +5,7 @@ grow tiny urls
 - tinyURL
 - Bit.ly
 
-<<<<<<< HEAD
 ## Usage
-=======
-##Usage
->>>>>>> 2b84cb403000c9c8972657c5eb55c2a169c6ec84
 ```
 $ ./lp.py -h
 usage: lp.py [-h] link
@@ -24,11 +20,7 @@ optional arguments:
 $
 ```
 
-<<<<<<< HEAD
 ## Example:
-=======
-##Example:
->>>>>>> 2b84cb403000c9c8972657c5eb55c2a169c6ec84
 ```
 $ ./lp.py https://tinyurl.com/8k467rsz
 The long link is: https://isitdns.com
