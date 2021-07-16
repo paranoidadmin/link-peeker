@@ -4,6 +4,7 @@ grow tiny urls
 ## Supported Shorteners
 - tinyURL
 - Bit.ly
+- Buff.ly
 
 ## Usage
 ```
