@@ -12,7 +12,7 @@ import requests
 Configuration:
 """
 #Supported shortening services, stored in array.
-services = ["tinyurl", "bitly", "bit.ly", "buff.ly"]
+services = ["tinyurl", "bitly", "bit.ly", "buff.ly", "ow.ly"]
 
 
 """
