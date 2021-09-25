@@ -5,6 +5,7 @@ grow tiny urls
 - tinyURL
 - Bit.ly
 - Buff.ly
+- ow.ly
 
 ## Usage
 ```
